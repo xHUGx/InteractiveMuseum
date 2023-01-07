@@ -16,13 +16,13 @@ TagManager:
   - 
   - 
   - 
+  - StensilMask
+  - StencilInside
   - 
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - IgnoreOcclusion
   - 
   - 
   - 
