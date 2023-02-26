@@ -14,21 +14,6 @@
       "dependencies": {},
       "hash": "73d86259ce31ce7f4dfe1d028ea1c3edf96c23e4"
     },
-    "com.kyrylokuzyk.arfoundationremote": {
-      "version": "file:..\\Assets\\Plugins\\ARFoundationRemoteInstaller\\com.kyrylokuzyk.arfoundationremote.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.unity.xr.arfoundation": "3.0.1",
-        "com.unity.xr.arsubsystems": "3.0.0",
-        "com.unity.xr.management": "3.0.4-preview.1",
-        "com.unity.modules.unitywebrequesttexture": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0",
-        "com.unity.modules.vr": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.ugui": "1.0.0"
-      }
-    },
     "com.unity.animation.rigging": {
       "version": "1.1.1",
       "depth": 1,
@@ -134,6 +119,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.4.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {

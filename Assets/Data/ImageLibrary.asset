@@ -21,9 +21,9 @@ MonoBehaviour:
       m_GuidLow: 4732088714826063761
       m_GuidHigh: 10770952982739856804
     m_SerializedTextureGuid:
-      m_GuidLow: 4387853849890340041
-      m_GuidHigh: 15190372158930117481
-    m_Size: {x: 0.6096, y: 0.8131969}
+      m_GuidLow: 10535294328911401212
+      m_GuidHigh: 15372138783367185289
+    m_Size: {x: 0.8128, y: 0.6096}
     m_SpecifySize: 1
-    m_Name: Picture1
+    m_Name: BrokenDreams
     m_Texture: {fileID: 0}

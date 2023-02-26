@@ -34,12 +34,8 @@ namespace Features.ScenePlayer.Bootstrap
 
         private void InstallHandlers()
         {
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneIncGodHandler>(nameof(ScenePlayerConst.InkGod));
             Container.InstallAsTransient<IPlaySceneHandler, PlaySceneFerrousHandler>(nameof(ScenePlayerConst.Ferrous));
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneRootAndBloomHandler >(nameof(ScenePlayerConst.RootAndBloom));
             Container.InstallAsTransient<IPlaySceneHandler, PlaySceneBrokenDreamsHandler>(nameof(ScenePlayerConst.BrokenDreams));
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneForrestHandler>(nameof(ScenePlayerConst.Forrest));
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneRobotHandler>(nameof(ScenePlayerConst.Robot));
         }
 
         private void InstallRules()
