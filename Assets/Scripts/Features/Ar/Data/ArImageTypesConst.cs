@@ -2,12 +2,12 @@
 {
     public class ArImageTypesConst
     {
-        public static string Ferrous = "Ferrous";
-        public static string RootAndBloom = "RootAndBloom";
+        public static string First = "First";
+        public static string Second = "Second";
 
         public static string[] GetAllImageTypes()
         {
-            return new[] {Ferrous, RootAndBloom};
+            return new[] {First, Second};
         }
     }
 }

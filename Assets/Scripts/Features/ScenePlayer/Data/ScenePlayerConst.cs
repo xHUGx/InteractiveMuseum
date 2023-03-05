@@ -2,7 +2,7 @@
 {
     public class ScenePlayerConst
     {
-        public static string Ferrous;
-        public static string BrokenDreams;
+        public static string First;
+        public static string Second;
     }
 }

@@ -321,16 +321,21 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 592170086}
     m_Modifications:
+    - target: {fileID: 2576861301212781770, guid: 8f2c8283388629841ae08b6a98243d85,
+        type: 3}
+      propertyPath: m_Name
+      value: P_ArImageAnchor_First
+      objectReference: {fileID: 0}
     - target: {fileID: 3164959782247640762, guid: 8f2c8283388629841ae08b6a98243d85,
         type: 3}
       propertyPath: m_Name
-      value: SceneBrokenDreams
+      value: SceneFirst
       objectReference: {fileID: 0}
     - target: {fileID: 3164959782247640763, guid: 8f2c8283388629841ae08b6a98243d85,
         type: 3}
       propertyPath: directionalLightHandlerView
       value: 
-      objectReference: {fileID: 1597905758}
+      objectReference: {fileID: 0}
     - target: {fileID: 3164959782247640764, guid: 8f2c8283388629841ae08b6a98243d85,
         type: 3}
       propertyPath: m_RootOrder
@@ -478,16 +483,16 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 592170086}
     m_Modifications:
+    - target: {fileID: 589667623552966692, guid: ce885d6eb8afdb149bac09f8dba2e988,
+        type: 3}
+      propertyPath: m_Name
+      value: P_ArImageAnchor_Second
+      objectReference: {fileID: 0}
     - target: {fileID: 3548266862223267164, guid: ce885d6eb8afdb149bac09f8dba2e988,
         type: 3}
       propertyPath: m_Name
-      value: SceneFerrous
+      value: SceneSecond
       objectReference: {fileID: 0}
-    - target: {fileID: 3548266862223267165, guid: ce885d6eb8afdb149bac09f8dba2e988,
-        type: 3}
-      propertyPath: directionalLightHandlerView
-      value: 
-      objectReference: {fileID: 1597905758}
     - target: {fileID: 3548266862223267166, guid: ce885d6eb8afdb149bac09f8dba2e988,
         type: 3}
       propertyPath: m_RootOrder
@@ -552,12 +557,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1597905754}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1597905756 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8430957453438332693, guid: ce885d6eb8afdb149bac09f8dba2e988,
-    type: 3}
-  m_PrefabInstance: {fileID: 1597905754}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1597905757 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3548266862223267165, guid: ce885d6eb8afdb149bac09f8dba2e988,
@@ -568,17 +567,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d27300547335fa74f9d0ba03977a59b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1597905758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1597905756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80f76ab6fd9b44dba607cfe428951ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

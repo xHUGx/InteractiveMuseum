@@ -34,8 +34,8 @@ namespace Features.ScenePlayer.Bootstrap
 
         private void InstallHandlers()
         {
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneFerrousHandler>(nameof(ScenePlayerConst.Ferrous));
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneBrokenDreamsHandler>(nameof(ScenePlayerConst.BrokenDreams));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneFerrousHandler>(nameof(ScenePlayerConst.First));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneBrokenDreamsHandler>(nameof(ScenePlayerConst.Second));
         }
 
         private void InstallRules()
