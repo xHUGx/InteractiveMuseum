@@ -96,11 +96,5 @@ namespace Features.ScenePlayer.Views
 
             transform.position = positionData.Position + transform.rotation * deltaPosition;
         }
-
-        private void ChangePosition(PositionData positionData)
-        {
-            // transform.position = positionData.Position;
-            // transform.rotation = positionData.Rotation;
-        }
     }
 }

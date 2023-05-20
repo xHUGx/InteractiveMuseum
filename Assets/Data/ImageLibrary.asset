@@ -21,19 +21,19 @@ MonoBehaviour:
       m_GuidLow: 4732088714826063761
       m_GuidHigh: 10770952982739856804
     m_SerializedTextureGuid:
-      m_GuidLow: 2643004529649882887
-      m_GuidHigh: 10677130273123681019
-    m_Size: {x: 0.6096, y: 0.6096}
+      m_GuidLow: 8148314321006105739
+      m_GuidHigh: 14138950678305703256
+    m_Size: {x: 0.6096, y: 0.762}
     m_SpecifySize: 1
-    m_Name: First
-    m_Texture: {fileID: 2800000, guid: d1879707d69d24adfb421bde69c92c94, type: 3}
+    m_Name: Robot
+    m_Texture: {fileID: 2800000, guid: 0dcc148ba0b4711458052e05bba437c4, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5456258424377074040
       m_GuidHigh: 11365892424390810550
     m_SerializedTextureGuid:
-      m_GuidLow: 8384093242107071099
-      m_GuidHigh: 13653593495684243370
-    m_Size: {x: 0.6096, y: 0.6096}
+      m_GuidLow: 15232409673746952835
+      m_GuidHigh: 2742465907939278122
+    m_Size: {x: 0.6096, y: 0.762}
     m_SpecifySize: 1
-    m_Name: Second
-    m_Texture: {fileID: 2800000, guid: 038b8a7b4862745aaadfd7c9f14e7bbd, type: 3}
+    m_Name: Woman
+    m_Texture: {fileID: 2800000, guid: bce9328363e4d3642afd568b36320f26, type: 3}

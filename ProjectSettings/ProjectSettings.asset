@@ -8,7 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 0
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -782,8 +782,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: ZEN_SIGNALS_ADD_UNIRX
-    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED;ZEN_SIGNALS_ADD_UNIRX;DEV
+    Standalone: ZEN_SIGNALS_ADD_UNIRX;ARFR_INSTALLED
+    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED;ZEN_SIGNALS_ADD_UNIRX;DEV;ARFR_INSTALLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -795,7 +795,7 @@ PlayerSettings:
   allowUnsafeCode: 1
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
-  selectedPlatform: 2
+  selectedPlatform: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
