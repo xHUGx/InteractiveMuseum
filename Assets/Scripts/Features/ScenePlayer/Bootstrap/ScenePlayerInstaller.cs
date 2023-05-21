@@ -36,6 +36,7 @@ namespace Features.ScenePlayer.Bootstrap
         {
             Container.InstallAsTransient<IPlaySceneHandler, PlaySceneFirstHandler>(nameof(ScenePlayerConst.Robot));
             Container.InstallAsTransient<IPlaySceneHandler, PlaySceneSecondHandler>(nameof(ScenePlayerConst.Woman));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneFirstHandler>(nameof(ScenePlayerConst.it0));
         }
 
         private void InstallRules()

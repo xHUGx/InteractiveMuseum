@@ -37,3 +37,63 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Woman
     m_Texture: {fileID: 2800000, guid: bce9328363e4d3642afd568b36320f26, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5251746149069159433
+      m_GuidHigh: 12027936596809069995
+    m_SerializedTextureGuid:
+      m_GuidLow: 8485929164924918418
+      m_GuidHigh: 5784160245476281674
+    m_Size: {x: 0.6096, y: 0.8594938}
+    m_SpecifySize: 1
+    m_Name: it0
+    m_Texture: {fileID: 2800000, guid: 787a1a92139d75c44acd8cf318774550, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5746761207594957815
+      m_GuidHigh: 9592341195344527769
+    m_SerializedTextureGuid:
+      m_GuidLow: 9386825313737675766
+      m_GuidHigh: 2090666780801488937
+    m_Size: {x: 0.6096, y: 0.83541584}
+    m_SpecifySize: 1
+    m_Name: it1
+    m_Texture: {fileID: 2800000, guid: a9fa93f6b3e3824429d8613d5c8a031d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5214837512218912016
+      m_GuidHigh: 8116028945439315892
+    m_SerializedTextureGuid:
+      m_GuidLow: 10107480363222127839
+      m_GuidHigh: 10003720287800371225
+    m_Size: {x: 0.6096, y: 0.8574229}
+    m_SpecifySize: 1
+    m_Name: it2
+    m_Texture: {fileID: 2800000, guid: b01754dffbd68c4419a8b58a995ad48a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5098416447621499517
+      m_GuidHigh: 5970039969955737495
+    m_SerializedTextureGuid:
+      m_GuidLow: 12273688752941129511
+      m_GuidHigh: 1925149025107721866
+    m_Size: {x: 0.6096, y: 0.8381583}
+    m_SpecifySize: 1
+    m_Name: it3
+    m_Texture: {fileID: 2800000, guid: 5ac35f27e6e4aa548a3e3ca5d680b71a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5047013699637648244
+      m_GuidHigh: 17752676496115442560
+    m_SerializedTextureGuid:
+      m_GuidLow: 2973774994734205683
+      m_GuidHigh: 17200117884254476891
+    m_Size: {x: 0.6096, y: 0.83132404}
+    m_SpecifySize: 1
+    m_Name: it5
+    m_Texture: {fileID: 2800000, guid: 1b124af3f89a29445bdad4e91518b3ee, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4842351725271759862
+      m_GuidHigh: 17281007329913758337
+    m_SerializedTextureGuid:
+      m_GuidLow: 5212060443185406566
+      m_GuidHigh: 16770096634377816539
+    m_Size: {x: 0.6096, y: 0.84308946}
+    m_SpecifySize: 1
+    m_Name: it7
+    m_Texture: {fileID: 2800000, guid: bfee6266f55b4854db491085095abbe8, type: 3}
