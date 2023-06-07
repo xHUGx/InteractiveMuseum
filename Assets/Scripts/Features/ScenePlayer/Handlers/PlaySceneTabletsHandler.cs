@@ -2,9 +2,9 @@ using Features.ScenePlayer.Controllers;
 
 namespace Features.ScenePlayer.Handlers
 {
-    public class PlaySceneFirstHandler : BasePlaySceneHandler
+    public class PlaySceneTabletsHandler : BasePlaySceneHandler
     {
-        public PlaySceneFirstHandler(ScenePlayerComponentsController scenePlayerComponentsController) 
+        public PlaySceneTabletsHandler(ScenePlayerComponentsController scenePlayerComponentsController) 
             : base(scenePlayerComponentsController)
         {
         }

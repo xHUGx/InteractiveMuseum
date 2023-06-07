@@ -2,9 +2,9 @@ using Features.ScenePlayer.Controllers;
 
 namespace Features.ScenePlayer.Handlers
 {
-    public class PlaySceneSecondHandler : BasePlaySceneHandler
+    public class PlaySceneWomanHandler : BasePlaySceneHandler
     {
-        public PlaySceneSecondHandler(ScenePlayerComponentsController scenePlayerComponentsController) 
+        public PlaySceneWomanHandler(ScenePlayerComponentsController scenePlayerComponentsController) 
             : base(scenePlayerComponentsController)
         {
         }

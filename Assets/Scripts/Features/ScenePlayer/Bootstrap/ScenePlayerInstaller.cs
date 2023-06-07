@@ -34,9 +34,18 @@ namespace Features.ScenePlayer.Bootstrap
 
         private void InstallHandlers()
         {
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneFirstHandler>(nameof(ScenePlayerConst.Robot));
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneSecondHandler>(nameof(ScenePlayerConst.Woman));
-            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneFirstHandler>(nameof(ScenePlayerConst.it0));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneRobotHandler>(nameof(ScenePlayerConst.Robot));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneWomanHandler>(nameof(ScenePlayerConst.Woman));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneDogHandler>(nameof(ScenePlayerConst.Dog));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it0));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it1));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it2));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it3));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it4));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it5));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it6));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it7));
+            Container.InstallAsTransient<IPlaySceneHandler, PlaySceneTabletsHandler>(nameof(ScenePlayerConst.it8));
         }
 
         private void InstallRules()
